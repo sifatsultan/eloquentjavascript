@@ -26,3 +26,9 @@ Binding passed as a parameter or defined inside a function is called _local_ bin
 Lexical scope. 
 
 Call stack: 
+
+__Higher-order__ functions in JavaScript are a special category of functions that either accept functions as an argument or return functions.
+
+On the other side, if the function uses only primitives or objects as arguments or return values, these functions are first-order.
+
+Higher-order functions provide the reusability benefit: the main behavior is provided by the higher-order function itself, and by accepting a function as an argument you extend that behavior at your will. [link](https://dmitripavlutin.com/javascript-higher-order-functions/#5-conclusion)
